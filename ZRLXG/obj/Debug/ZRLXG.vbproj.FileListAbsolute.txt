@@ -1,0 +1,15 @@
+C:\Users\Administrator.XZ-202007101700\AppData\Local\Temporary Projects\ZRLXG\bin\Debug\ZRLXG.exe.config
+D:\Users\Administrator.XZ-202007101700\Documents\Visual Studio 2012\Projects\ZRLXG\ZRLXG\bin\Debug\ZRLXG.exe.config
+D:\Users\Administrator.XZ-202007101700\Documents\Visual Studio 2012\Projects\ZRLXG\ZRLXG\bin\Debug\ZRLXG.exe
+D:\Users\Administrator.XZ-202007101700\Documents\Visual Studio 2012\Projects\ZRLXG\ZRLXG\bin\Debug\ZRLXG.pdb
+D:\Users\Administrator.XZ-202007101700\Documents\Visual Studio 2012\Projects\ZRLXG\ZRLXG\bin\Debug\ZRLXG.xml
+D:\Users\Administrator.XZ-202007101700\Documents\Visual Studio 2012\Projects\ZRLXG\ZRLXG\obj\Debug\ZRLXG.abtfrm.resources
+D:\Users\Administrator.XZ-202007101700\Documents\Visual Studio 2012\Projects\ZRLXG\ZRLXG\obj\Debug\ZRLXG.Resources.resources
+D:\Users\Administrator.XZ-202007101700\Documents\Visual Studio 2012\Projects\ZRLXG\ZRLXG\obj\Debug\ZRLXG.Normal.resources
+D:\Users\Administrator.XZ-202007101700\Documents\Visual Studio 2012\Projects\ZRLXG\ZRLXG\obj\Debug\ZRLXG.SplashScreen.resources
+D:\Users\Administrator.XZ-202007101700\Documents\Visual Studio 2012\Projects\ZRLXG\ZRLXG\obj\Debug\ZRLXG.vbproj.GenerateResource.Cache
+D:\Users\Administrator.XZ-202007101700\Documents\Visual Studio 2012\Projects\ZRLXG\ZRLXG\obj\Debug\ZRLXG.exe
+D:\Users\Administrator.XZ-202007101700\Documents\Visual Studio 2012\Projects\ZRLXG\ZRLXG\obj\Debug\ZRLXG.xml
+D:\Users\Administrator.XZ-202007101700\Documents\Visual Studio 2012\Projects\ZRLXG\ZRLXG\obj\Debug\ZRLXG.pdb
+D:\Users\Administrator.XZ-202007101700\Documents\Visual Studio 2012\Projects\ZRLXG\ZRLXG\obj\Debug\ZRLXG.SplashScreenClose.resources
+D:\Users\Administrator.XZ-202007101700\Documents\Visual Studio 2012\Projects\ZRLXG\ZRLXG\obj\Debug\ZRLXG.Dialog1.resources
