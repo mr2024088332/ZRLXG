@@ -28,23 +28,30 @@ Partial Class Normal
         Me.窗口化ToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.全屏ToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.关闭ToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.新关卡ToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.地图选择ToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.CityOfWarToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.骆正义ToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.ToolStripMenuItem2 = New System.Windows.Forms.ToolStripMenuItem()
+        Me.ToolStripMenuItem3 = New System.Windows.Forms.ToolStripMenuItem()
+        Me.ToolStripMenuItem4 = New System.Windows.Forms.ToolStripMenuItem()
         Me.关于ToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
-        Me.PictureBox1 = New System.Windows.Forms.PictureBox()
-        Me.PictureBox2 = New System.Windows.Forms.PictureBox()
         Me.Timer1 = New System.Windows.Forms.Timer(Me.components)
         Me.PictureBox4 = New System.Windows.Forms.PictureBox()
         Me.PictureBox3 = New System.Windows.Forms.PictureBox()
-        Me.新关卡ToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.PictureBox2 = New System.Windows.Forms.PictureBox()
+        Me.PictureBox1 = New System.Windows.Forms.PictureBox()
+        Me.发行版信息ToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.MenuStrip1.SuspendLayout()
-        CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.PictureBox2, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.PictureBox4, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.PictureBox3, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.PictureBox2, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '
         'MenuStrip1
         '
-        Me.MenuStrip1.Items.AddRange(New System.Windows.Forms.ToolStripItem() {Me.窗口化运行ToolStripMenuItem, Me.新关卡ToolStripMenuItem, Me.关于ToolStripMenuItem})
+        Me.MenuStrip1.Items.AddRange(New System.Windows.Forms.ToolStripItem() {Me.窗口化运行ToolStripMenuItem, Me.新关卡ToolStripMenuItem, Me.地图选择ToolStripMenuItem, Me.关于ToolStripMenuItem, Me.发行版信息ToolStripMenuItem})
         Me.MenuStrip1.Location = New System.Drawing.Point(0, 0)
         Me.MenuStrip1.Name = "MenuStrip1"
         Me.MenuStrip1.Size = New System.Drawing.Size(688, 25)
@@ -76,32 +83,55 @@ Partial Class Normal
         Me.关闭ToolStripMenuItem.Size = New System.Drawing.Size(112, 22)
         Me.关闭ToolStripMenuItem.Text = "关闭"
         '
+        '新关卡ToolStripMenuItem
+        '
+        Me.新关卡ToolStripMenuItem.Name = "新关卡ToolStripMenuItem"
+        Me.新关卡ToolStripMenuItem.Size = New System.Drawing.Size(56, 21)
+        Me.新关卡ToolStripMenuItem.Text = "新关卡"
+        '
+        '地图选择ToolStripMenuItem
+        '
+        Me.地图选择ToolStripMenuItem.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.CityOfWarToolStripMenuItem, Me.骆正义ToolStripMenuItem})
+        Me.地图选择ToolStripMenuItem.Name = "地图选择ToolStripMenuItem"
+        Me.地图选择ToolStripMenuItem.Size = New System.Drawing.Size(68, 21)
+        Me.地图选择ToolStripMenuItem.Text = "地图选择"
+        '
+        'CityOfWarToolStripMenuItem
+        '
+        Me.CityOfWarToolStripMenuItem.Name = "CityOfWarToolStripMenuItem"
+        Me.CityOfWarToolStripMenuItem.Size = New System.Drawing.Size(143, 22)
+        Me.CityOfWarToolStripMenuItem.Text = "City Of War"
+        '
+        '骆正义ToolStripMenuItem
+        '
+        Me.骆正义ToolStripMenuItem.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.ToolStripMenuItem2, Me.ToolStripMenuItem3, Me.ToolStripMenuItem4})
+        Me.骆正义ToolStripMenuItem.Name = "骆正义ToolStripMenuItem"
+        Me.骆正义ToolStripMenuItem.Size = New System.Drawing.Size(143, 22)
+        Me.骆正义ToolStripMenuItem.Text = "骆正义"
+        '
+        'ToolStripMenuItem2
+        '
+        Me.ToolStripMenuItem2.Name = "ToolStripMenuItem2"
+        Me.ToolStripMenuItem2.Size = New System.Drawing.Size(83, 22)
+        Me.ToolStripMenuItem2.Text = "1"
+        '
+        'ToolStripMenuItem3
+        '
+        Me.ToolStripMenuItem3.Name = "ToolStripMenuItem3"
+        Me.ToolStripMenuItem3.Size = New System.Drawing.Size(83, 22)
+        Me.ToolStripMenuItem3.Text = "2"
+        '
+        'ToolStripMenuItem4
+        '
+        Me.ToolStripMenuItem4.Name = "ToolStripMenuItem4"
+        Me.ToolStripMenuItem4.Size = New System.Drawing.Size(83, 22)
+        Me.ToolStripMenuItem4.Text = "3"
+        '
         '关于ToolStripMenuItem
         '
         Me.关于ToolStripMenuItem.Name = "关于ToolStripMenuItem"
         Me.关于ToolStripMenuItem.Size = New System.Drawing.Size(44, 21)
         Me.关于ToolStripMenuItem.Text = "关于"
-        '
-        'PictureBox1
-        '
-        Me.PictureBox1.BackgroundImage = Global.ZRLXG.My.Resources.Resources.City_of_War
-        Me.PictureBox1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
-        Me.PictureBox1.Dock = System.Windows.Forms.DockStyle.Fill
-        Me.PictureBox1.Location = New System.Drawing.Point(0, 25)
-        Me.PictureBox1.Name = "PictureBox1"
-        Me.PictureBox1.Size = New System.Drawing.Size(688, 531)
-        Me.PictureBox1.TabIndex = 1
-        Me.PictureBox1.TabStop = False
-        '
-        'PictureBox2
-        '
-        Me.PictureBox2.Image = Global.ZRLXG.My.Resources.Resources.ZRLGO
-        Me.PictureBox2.Location = New System.Drawing.Point(278, 255)
-        Me.PictureBox2.Name = "PictureBox2"
-        Me.PictureBox2.Size = New System.Drawing.Size(104, 108)
-        Me.PictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
-        Me.PictureBox2.TabIndex = 2
-        Me.PictureBox2.TabStop = False
         '
         'Timer1
         '
@@ -128,11 +158,34 @@ Partial Class Normal
         Me.PictureBox3.TabIndex = 3
         Me.PictureBox3.TabStop = False
         '
-        '新关卡ToolStripMenuItem
+        'PictureBox2
         '
-        Me.新关卡ToolStripMenuItem.Name = "新关卡ToolStripMenuItem"
-        Me.新关卡ToolStripMenuItem.Size = New System.Drawing.Size(56, 21)
-        Me.新关卡ToolStripMenuItem.Text = "新关卡"
+        Me.PictureBox2.Image = Global.ZRLXG.My.Resources.Resources.ZRLGO
+        Me.PictureBox2.Location = New System.Drawing.Point(278, 255)
+        Me.PictureBox2.Name = "PictureBox2"
+        Me.PictureBox2.Size = New System.Drawing.Size(104, 108)
+        Me.PictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
+        Me.PictureBox2.TabIndex = 2
+        Me.PictureBox2.TabStop = False
+        '
+        'PictureBox1
+        '
+        Me.PictureBox1.BackgroundImage = Global.ZRLXG.My.Resources.Resources.City_of_War
+        Me.PictureBox1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
+        Me.PictureBox1.Dock = System.Windows.Forms.DockStyle.Fill
+        Me.PictureBox1.ErrorImage = Global.ZRLXG.My.Resources.Resources.Sblogo
+        Me.PictureBox1.InitialImage = Global.ZRLXG.My.Resources.Resources.ZRLGO
+        Me.PictureBox1.Location = New System.Drawing.Point(0, 25)
+        Me.PictureBox1.Name = "PictureBox1"
+        Me.PictureBox1.Size = New System.Drawing.Size(688, 531)
+        Me.PictureBox1.TabIndex = 1
+        Me.PictureBox1.TabStop = False
+        '
+        '发行版信息ToolStripMenuItem
+        '
+        Me.发行版信息ToolStripMenuItem.Name = "发行版信息ToolStripMenuItem"
+        Me.发行版信息ToolStripMenuItem.Size = New System.Drawing.Size(80, 21)
+        Me.发行版信息ToolStripMenuItem.Text = "发行版信息"
         '
         'Normal
         '
@@ -155,10 +208,10 @@ Partial Class Normal
         Me.Text = "张锐历险记"
         Me.MenuStrip1.ResumeLayout(False)
         Me.MenuStrip1.PerformLayout()
-        CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.PictureBox2, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.PictureBox4, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.PictureBox3, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.PictureBox2, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).EndInit()
         Me.ResumeLayout(False)
         Me.PerformLayout()
 
@@ -175,4 +228,11 @@ Partial Class Normal
     Friend WithEvents 关闭ToolStripMenuItem As System.Windows.Forms.ToolStripMenuItem
     Friend WithEvents PictureBox3 As System.Windows.Forms.PictureBox
     Friend WithEvents 新关卡ToolStripMenuItem As System.Windows.Forms.ToolStripMenuItem
+    Friend WithEvents 地图选择ToolStripMenuItem As System.Windows.Forms.ToolStripMenuItem
+    Friend WithEvents CityOfWarToolStripMenuItem As System.Windows.Forms.ToolStripMenuItem
+    Friend WithEvents 骆正义ToolStripMenuItem As System.Windows.Forms.ToolStripMenuItem
+    Friend WithEvents ToolStripMenuItem2 As System.Windows.Forms.ToolStripMenuItem
+    Friend WithEvents ToolStripMenuItem3 As System.Windows.Forms.ToolStripMenuItem
+    Friend WithEvents ToolStripMenuItem4 As System.Windows.Forms.ToolStripMenuItem
+    Friend WithEvents 发行版信息ToolStripMenuItem As System.Windows.Forms.ToolStripMenuItem
 End Class

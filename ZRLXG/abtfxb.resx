@@ -117,23 +117,4 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="City_of_War" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\City of War.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="LG1" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\lQDPDhs3getKQzzNBQDNAk-wenN0D3Sn_hgCK53ekkAIAA_591_1280.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="LG2" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\lQDPDhs3getKRN7NBQDNAk-wPV_xPEHXQfYCK53fHkAIAA_591_1280.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="LG3" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\lQDPDhs3gevi2XHNBP7NAk6wdbZ2Ya037CoCK53fiQAIAA_590_1278.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Sblogo" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\无标题.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="ZRLGO" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\ZRLGO.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
 </root>

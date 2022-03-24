@@ -20,10 +20,16 @@
         Dim Point1 As Point
         Point1.X = Int(((Me.Size.Width - 500 + 1) * Rnd() + Me.Size.Width / 2))
         Point1.Y = Int(((Me.Size.Height - 500 + 1) * Rnd() + Me.Size.Height / 2))
+        Dim Point2 As Point
+        Point2.X = Int(((Me.Size.Width - 600 + 1) * Rnd() + Me.Size.Width / 2))
+        Point2.Y = Int(((Me.Size.Height - 600 + 1) * Rnd() + Me.Size.Height / 2))
+        Dim Point3 As Point
+        Point3.X = Int(((Me.Size.Width - 700 + 1) * Rnd() + Me.Size.Width / 2))
+        Point3.Y = Int(((Me.Size.Height - 700 + 1) * Rnd() + Me.Size.Height / 2))
 
         PictureBox2.Location = Point1
-        PictureBox3.Location = Point1
-        PictureBox4.Location = Point1
+        PictureBox3.Location = Point2
+        PictureBox4.Location = Point3
     End Sub
 #End Region
 #Region "杂项"
@@ -32,29 +38,61 @@
     End Sub
 #End Region
 #Region "胜利，开始"
+   
+    Private Sub 新关卡ToolStripMenuItem_Click() '(sender As Object, e As EventArgs) Handles 新关卡ToolStripMenuItem.Click
+        Dialog1.Show()
+    End Sub
+
+
+
     Private Sub PictureBox2_Click(sender As Object, e As EventArgs) Handles PictureBox2.Click
         Timer1.Enabled = False
         MsgBox("You Win!!!", vbYes, "ZhengRUi Is Death !!!")
+
         Dialog1.Show()
     End Sub
 
-    Private Sub 新关卡ToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles 新关卡ToolStripMenuItem.Click
-        Dialog1.Show()
-    End Sub
-
-    Private Sub PictureBox3_ChangeUICues(sender As Object, e As UICuesEventArgs) Handles PictureBox3.ChangeUICues
+    Private Sub PictureBox3_Click(sender As Object, e As EventArgs) Handles PictureBox3.Click
         Timer1.Enabled = False
         MsgBox("You Win!!!", vbYes, "ZhengRUi Is Death !!!")
 
         Dialog1.Show()
+
     End Sub
 
     Private Sub PictureBox4_Click(sender As Object, e As EventArgs) Handles PictureBox4.Click
         Timer1.Enabled = False
         MsgBox("You Win!!!", vbYes, "ZhengRUi Is Death !!!")
+
         Dialog1.Show()
     End Sub
 #End Region
+#Region "地图选择"
+    Private Sub CityOfWarToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles CityOfWarToolStripMenuItem.Click
+        PictureBox1.Image = My.Resources.City_of_War
+    End Sub
+
+    Private Sub ToolStripMenuItem2_Click(sender As Object, e As EventArgs) Handles ToolStripMenuItem2.Click
+        PictureBox1.Image = My.Resources.LG1
+    End Sub
+
+    Private Sub ToolStripMenuItem3_Click(sender As Object, e As EventArgs) Handles ToolStripMenuItem3.Click
+        PictureBox1.Image = My.Resources.LG2
+    End Sub
+
+    Private Sub ToolStripMenuItem4_Click(sender As Object, e As EventArgs) Handles ToolStripMenuItem4.Click
+        PictureBox1.Image = My.Resources.LG3
+    End Sub
+#End Region
+
+   
+    Private Sub 新关卡ToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles 新关卡ToolStripMenuItem.Click
+        Dialog1.Show()
+    End Sub
+
+    Private Sub 发行版信息ToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles 发行版信息ToolStripMenuItem.Click
+        abtfxb.ShowDialog()
+    End Sub
 End Class
 
 

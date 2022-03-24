@@ -80,6 +80,12 @@
     <Compile Include="abtfrm.vb">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="abtfxb.Designer.vb">
+      <DependentUpon>abtfxb.vb</DependentUpon>
+    </Compile>
+    <Compile Include="abtfxb.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="ApplicationEvents.vb" />
     <Compile Include="Dialog1.Designer.vb">
       <DependentUpon>Dialog1.vb</DependentUpon>
@@ -87,6 +93,7 @@
     <Compile Include="Dialog1.vb">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="INIRW.vb" />
     <Compile Include="My Project\AssemblyInfo.vb" />
     <Compile Include="My Project\Application.Designer.vb">
       <AutoGen>True</AutoGen>
@@ -125,10 +132,14 @@
     <Compile Include="SplashScreenClose.vb">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="StringR.vb" />
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="abtfrm.resx">
       <DependentUpon>abtfrm.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="abtfxb.resx">
+      <DependentUpon>abtfxb.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Dialog1.resx">
       <DependentUpon>Dialog1.vb</DependentUpon>
@@ -172,6 +183,9 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="itemPicker.ico" />
+    <None Include="Resources\lQDPDhs3gevi2XHNBP7NAk6wdbZ2Ya037CoCK53fiQAIAA_590_1278.jpg" />
+    <None Include="Resources\lQDPDhs3getKRN7NBQDNAk-wPV_xPEHXQfYCK53fHkAIAA_591_1280.jpg" />
+    <None Include="Resources\lQDPDhs3getKQzzNBQDNAk-wenN0D3Sn_hgCK53ekkAIAA_591_1280.jpg" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
