@@ -1,0 +1,17 @@
+D:\Users\Administrator.XZ-202007101700\Documents\Visual Studio 2012\Projects\ZRLXG\ZRLXG\bin\Release\ZRLXG.exe.config
+D:\Users\Administrator.XZ-202007101700\Documents\Visual Studio 2012\Projects\ZRLXG\ZRLXG\bin\Release\ZRLXG.exe
+D:\Users\Administrator.XZ-202007101700\Documents\Visual Studio 2012\Projects\ZRLXG\ZRLXG\bin\Release\ZRLXG.pdb
+D:\Users\Administrator.XZ-202007101700\Documents\Visual Studio 2012\Projects\ZRLXG\ZRLXG\bin\Release\ZRLXG.xml
+D:\Users\Administrator.XZ-202007101700\Documents\Visual Studio 2012\Projects\ZRLXG\ZRLXG\obj\Release\ZRLXG.abtfrm.resources
+D:\Users\Administrator.XZ-202007101700\Documents\Visual Studio 2012\Projects\ZRLXG\ZRLXG\obj\Release\ZRLXG.abtfxb.resources
+D:\Users\Administrator.XZ-202007101700\Documents\Visual Studio 2012\Projects\ZRLXG\ZRLXG\obj\Release\ZRLXG.Dialog1.resources
+D:\Users\Administrator.XZ-202007101700\Documents\Visual Studio 2012\Projects\ZRLXG\ZRLXG\obj\Release\ZRLXG.Resources.resources
+D:\Users\Administrator.XZ-202007101700\Documents\Visual Studio 2012\Projects\ZRLXG\ZRLXG\obj\Release\ZRLXG.Normal.resources
+D:\Users\Administrator.XZ-202007101700\Documents\Visual Studio 2012\Projects\ZRLXG\ZRLXG\obj\Release\ZRLXG.SplashScreen.resources
+D:\Users\Administrator.XZ-202007101700\Documents\Visual Studio 2012\Projects\ZRLXG\ZRLXG\obj\Release\ZRLXG.SplashScreenClose.resources
+D:\Users\Administrator.XZ-202007101700\Documents\Visual Studio 2012\Projects\ZRLXG\ZRLXG\obj\Release\ZRLXG.vbproj.GenerateResource.Cache
+D:\Users\Administrator.XZ-202007101700\Documents\Visual Studio 2012\Projects\ZRLXG\ZRLXG\obj\Release\ZRLXG.exe
+D:\Users\Administrator.XZ-202007101700\Documents\Visual Studio 2012\Projects\ZRLXG\ZRLXG\obj\Release\ZRLXG.xml
+D:\Users\Administrator.XZ-202007101700\Documents\Visual Studio 2012\Projects\ZRLXG\ZRLXG\obj\Release\ZRLXG.pdb
+D:\Users\Administrator.XZ-202007101700\Documents\Visual Studio 2012\Projects\ZRLXG\ZRLXG\obj\Release\ZRLXG.Blog.resources
+D:\Users\Administrator.XZ-202007101700\Documents\Visual Studio 2012\Projects\ZRLXG\ZRLXG\obj\Release\ZRLXG.DialogErr.resources

@@ -1,6 +1,6 @@
 ﻿
 Namespace Global.ZRLXG
-    Class Normal
+    Class ZRLXG
 
     End Class
 End Namespace
