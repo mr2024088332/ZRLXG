@@ -15,3 +15,4 @@ D:\Users\Administrator.XZ-202007101700\Documents\Visual Studio 2012\Projects\ZRL
 D:\Users\Administrator.XZ-202007101700\Documents\Visual Studio 2012\Projects\ZRLXG\ZRLXG\obj\Release\ZRLXG.pdb
 D:\Users\Administrator.XZ-202007101700\Documents\Visual Studio 2012\Projects\ZRLXG\ZRLXG\obj\Release\ZRLXG.Blog.resources
 D:\Users\Administrator.XZ-202007101700\Documents\Visual Studio 2012\Projects\ZRLXG\ZRLXG\obj\Release\ZRLXG.DialogErr.resources
+D:\Users\Administrator.XZ-202007101700\Documents\Visual Studio 2012\Projects\ZRLXG\ZRLXG\obj\Release\ZRLXG.Wine.resources
