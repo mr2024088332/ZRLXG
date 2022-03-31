@@ -52,6 +52,7 @@ Partial Class Wine
         Me.PictureBox3 = New System.Windows.Forms.PictureBox()
         Me.Label1 = New System.Windows.Forms.Label()
         Me.Button1 = New System.Windows.Forms.Button()
+        Me.游戏帮助ToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.MenuStrip1.SuspendLayout()
         CType(Me.PictureBox2, System.ComponentModel.ISupportInitialize).BeginInit()
@@ -71,7 +72,7 @@ Partial Class Wine
         '
         'MenuStrip1
         '
-        Me.MenuStrip1.Items.AddRange(New System.Windows.Forms.ToolStripItem() {Me.窗口化运行ToolStripMenuItem, Me.血量ToolStripMenuItem, Me.新关卡ToolStripMenuItem, Me.地图选择ToolStripMenuItem, Me.关于ToolStripMenuItem, Me.发行版信息ToolStripMenuItem})
+        Me.MenuStrip1.Items.AddRange(New System.Windows.Forms.ToolStripItem() {Me.窗口化运行ToolStripMenuItem, Me.血量ToolStripMenuItem, Me.新关卡ToolStripMenuItem, Me.地图选择ToolStripMenuItem, Me.游戏帮助ToolStripMenuItem, Me.关于ToolStripMenuItem, Me.发行版信息ToolStripMenuItem})
         Me.MenuStrip1.Location = New System.Drawing.Point(0, 0)
         Me.MenuStrip1.Name = "MenuStrip1"
         Me.MenuStrip1.Size = New System.Drawing.Size(595, 25)
@@ -285,6 +286,12 @@ Partial Class Wine
         Me.Button1.Text = "灌醉"
         Me.Button1.UseVisualStyleBackColor = True
         '
+        '游戏帮助ToolStripMenuItem
+        '
+        Me.游戏帮助ToolStripMenuItem.Name = "游戏帮助ToolStripMenuItem"
+        Me.游戏帮助ToolStripMenuItem.Size = New System.Drawing.Size(68, 21)
+        Me.游戏帮助ToolStripMenuItem.Text = "游戏帮助"
+        '
         'Wine
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(7.0!, 17.0!)
@@ -341,4 +348,5 @@ Partial Class Wine
     Friend WithEvents PictureBox3 As System.Windows.Forms.PictureBox
     Friend WithEvents Label1 As System.Windows.Forms.Label
     Friend WithEvents Button1 As System.Windows.Forms.Button
+    Friend WithEvents 游戏帮助ToolStripMenuItem As System.Windows.Forms.ToolStripMenuItem
 End Class

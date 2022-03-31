@@ -59,6 +59,7 @@ Partial Class Normal
         Me.ToolStripStatusLabel1 = New System.Windows.Forms.ToolStripStatusLabel()
         Me.Timer2 = New System.Windows.Forms.Timer(Me.components)
         Me.Err_log_Do = New System.Windows.Forms.Timer(Me.components)
+        Me.游戏帮助ToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.MenuStrip1.SuspendLayout()
         CType(Me.PictureBox4, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.PictureBox3, System.ComponentModel.ISupportInitialize).BeginInit()
@@ -69,7 +70,7 @@ Partial Class Normal
         '
         'MenuStrip1
         '
-        Me.MenuStrip1.Items.AddRange(New System.Windows.Forms.ToolStripItem() {Me.窗口化运行ToolStripMenuItem, Me.血量ToolStripMenuItem, Me.新关卡ToolStripMenuItem, Me.地图选择ToolStripMenuItem, Me.关于ToolStripMenuItem, Me.发行版信息ToolStripMenuItem})
+        Me.MenuStrip1.Items.AddRange(New System.Windows.Forms.ToolStripItem() {Me.窗口化运行ToolStripMenuItem, Me.血量ToolStripMenuItem, Me.新关卡ToolStripMenuItem, Me.地图选择ToolStripMenuItem, Me.游戏帮助ToolStripMenuItem, Me.关于ToolStripMenuItem, Me.发行版信息ToolStripMenuItem})
         Me.MenuStrip1.Location = New System.Drawing.Point(0, 0)
         Me.MenuStrip1.Name = "MenuStrip1"
         Me.MenuStrip1.Size = New System.Drawing.Size(688, 25)
@@ -86,20 +87,20 @@ Partial Class Normal
         '窗口化ToolStripMenuItem
         '
         Me.窗口化ToolStripMenuItem.Name = "窗口化ToolStripMenuItem"
-        Me.窗口化ToolStripMenuItem.Size = New System.Drawing.Size(152, 22)
+        Me.窗口化ToolStripMenuItem.Size = New System.Drawing.Size(112, 22)
         Me.窗口化ToolStripMenuItem.Text = "窗口化"
         '
         '全屏ToolStripMenuItem
         '
         Me.全屏ToolStripMenuItem.Name = "全屏ToolStripMenuItem"
-        Me.全屏ToolStripMenuItem.Size = New System.Drawing.Size(152, 22)
+        Me.全屏ToolStripMenuItem.Size = New System.Drawing.Size(112, 22)
         Me.全屏ToolStripMenuItem.Text = "全屏"
         '
         '边框ToolStripMenuItem
         '
         Me.边框ToolStripMenuItem.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.边框ToolStripMenuItem1, Me.按钮ToolStripMenuItem})
         Me.边框ToolStripMenuItem.Name = "边框ToolStripMenuItem"
-        Me.边框ToolStripMenuItem.Size = New System.Drawing.Size(152, 22)
+        Me.边框ToolStripMenuItem.Size = New System.Drawing.Size(112, 22)
         Me.边框ToolStripMenuItem.Text = "边框"
         '
         '边框ToolStripMenuItem1
@@ -143,7 +144,7 @@ Partial Class Normal
         '关闭ToolStripMenuItem
         '
         Me.关闭ToolStripMenuItem.Name = "关闭ToolStripMenuItem"
-        Me.关闭ToolStripMenuItem.Size = New System.Drawing.Size(152, 22)
+        Me.关闭ToolStripMenuItem.Size = New System.Drawing.Size(112, 22)
         Me.关闭ToolStripMenuItem.Text = "关闭"
         '
         '血量ToolStripMenuItem
@@ -156,13 +157,13 @@ Partial Class Normal
         '开启ToolStripMenuItem
         '
         Me.开启ToolStripMenuItem.Name = "开启ToolStripMenuItem"
-        Me.开启ToolStripMenuItem.Size = New System.Drawing.Size(152, 22)
+        Me.开启ToolStripMenuItem.Size = New System.Drawing.Size(100, 22)
         Me.开启ToolStripMenuItem.Text = "开启"
         '
         '关闭ToolStripMenuItem1
         '
         Me.关闭ToolStripMenuItem1.Name = "关闭ToolStripMenuItem1"
-        Me.关闭ToolStripMenuItem1.Size = New System.Drawing.Size(152, 22)
+        Me.关闭ToolStripMenuItem1.Size = New System.Drawing.Size(100, 22)
         Me.关闭ToolStripMenuItem1.Text = "关闭"
         '
         '新关卡ToolStripMenuItem
@@ -181,14 +182,14 @@ Partial Class Normal
         'CityOfWarToolStripMenuItem
         '
         Me.CityOfWarToolStripMenuItem.Name = "CityOfWarToolStripMenuItem"
-        Me.CityOfWarToolStripMenuItem.Size = New System.Drawing.Size(152, 22)
+        Me.CityOfWarToolStripMenuItem.Size = New System.Drawing.Size(143, 22)
         Me.CityOfWarToolStripMenuItem.Text = "City Of War"
         '
         '骆正义ToolStripMenuItem
         '
         Me.骆正义ToolStripMenuItem.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.ToolStripMenuItem2, Me.ToolStripMenuItem3, Me.ToolStripMenuItem4})
         Me.骆正义ToolStripMenuItem.Name = "骆正义ToolStripMenuItem"
-        Me.骆正义ToolStripMenuItem.Size = New System.Drawing.Size(152, 22)
+        Me.骆正义ToolStripMenuItem.Size = New System.Drawing.Size(143, 22)
         Me.骆正义ToolStripMenuItem.Text = "骆正义"
         '
         'ToolStripMenuItem2
@@ -212,7 +213,7 @@ Partial Class Normal
         '张锐的头像ToolStripMenuItem
         '
         Me.张锐的头像ToolStripMenuItem.Name = "张锐的头像ToolStripMenuItem"
-        Me.张锐的头像ToolStripMenuItem.Size = New System.Drawing.Size(152, 22)
+        Me.张锐的头像ToolStripMenuItem.Size = New System.Drawing.Size(143, 22)
         Me.张锐的头像ToolStripMenuItem.Text = "张锐的头像"
         '
         '关于ToolStripMenuItem
@@ -278,28 +279,29 @@ Partial Class Normal
         '
         'StatusStrip1
         '
+        Me.StatusStrip1.BackColor = System.Drawing.Color.Transparent
         Me.StatusStrip1.Items.AddRange(New System.Windows.Forms.ToolStripItem() {Me.ZRH, Me.ZRHX, Me.ToolStripStatusLabel1})
-        Me.StatusStrip1.Location = New System.Drawing.Point(0, 534)
+        Me.StatusStrip1.Location = New System.Drawing.Point(0, 530)
         Me.StatusStrip1.Name = "StatusStrip1"
-        Me.StatusStrip1.Size = New System.Drawing.Size(688, 22)
+        Me.StatusStrip1.Size = New System.Drawing.Size(688, 26)
         Me.StatusStrip1.TabIndex = 5
         Me.StatusStrip1.Text = "StatusStrip1"
         '
         'ZRH
         '
         Me.ZRH.Name = "ZRH"
-        Me.ZRH.Size = New System.Drawing.Size(100, 16)
+        Me.ZRH.Size = New System.Drawing.Size(100, 20)
         '
         'ZRHX
         '
         Me.ZRHX.Name = "ZRHX"
-        Me.ZRHX.Size = New System.Drawing.Size(134, 17)
-        Me.ZRHX.Text = "ToolStripStatusLabel1"
+        Me.ZRHX.Size = New System.Drawing.Size(65, 21)
+        Me.ZRHX.Text = "ZR_Health"
         '
         'ToolStripStatusLabel1
         '
         Me.ToolStripStatusLabel1.Name = "ToolStripStatusLabel1"
-        Me.ToolStripStatusLabel1.Size = New System.Drawing.Size(68, 17)
+        Me.ToolStripStatusLabel1.Size = New System.Drawing.Size(68, 21)
         Me.ToolStripStatusLabel1.Text = "张锐的血量"
         '
         'Timer2
@@ -309,6 +311,12 @@ Partial Class Normal
         'Err_log_Do
         '
         Me.Err_log_Do.Enabled = True
+        '
+        '游戏帮助ToolStripMenuItem
+        '
+        Me.游戏帮助ToolStripMenuItem.Name = "游戏帮助ToolStripMenuItem"
+        Me.游戏帮助ToolStripMenuItem.Size = New System.Drawing.Size(68, 21)
+        Me.游戏帮助ToolStripMenuItem.Text = "游戏帮助"
         '
         'Normal
         '
@@ -379,4 +387,5 @@ End Sub
     Friend WithEvents ToolStripStatusLabel1 As System.Windows.Forms.ToolStripStatusLabel
     Friend WithEvents Timer2 As System.Windows.Forms.Timer
     Friend WithEvents Err_log_Do As System.Windows.Forms.Timer
+    Friend WithEvents 游戏帮助ToolStripMenuItem As System.Windows.Forms.ToolStripMenuItem
 End Class

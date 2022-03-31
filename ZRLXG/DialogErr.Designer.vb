@@ -51,6 +51,7 @@ Partial Class DialogErr
         'OK_Button
         '
         Me.OK_Button.Anchor = System.Windows.Forms.AnchorStyles.None
+        Me.OK_Button.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.OK_Button.Location = New System.Drawing.Point(3, 4)
         Me.OK_Button.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.OK_Button.Name = "OK_Button"
@@ -62,6 +63,7 @@ Partial Class DialogErr
         '
         Me.Cancel_Button.Anchor = System.Windows.Forms.AnchorStyles.None
         Me.Cancel_Button.DialogResult = System.Windows.Forms.DialogResult.Cancel
+        Me.Cancel_Button.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.Cancel_Button.Location = New System.Drawing.Point(88, 4)
         Me.Cancel_Button.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.Cancel_Button.Name = "Cancel_Button"

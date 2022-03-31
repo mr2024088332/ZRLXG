@@ -13,6 +13,11 @@ D:\Users\Administrator.XZ-202007101700\Documents\Visual Studio 2012\Projects\ZRL
 D:\Users\Administrator.XZ-202007101700\Documents\Visual Studio 2012\Projects\ZRLXG\ZRLXG\obj\Release\ZRLXG.exe
 D:\Users\Administrator.XZ-202007101700\Documents\Visual Studio 2012\Projects\ZRLXG\ZRLXG\obj\Release\ZRLXG.xml
 D:\Users\Administrator.XZ-202007101700\Documents\Visual Studio 2012\Projects\ZRLXG\ZRLXG\obj\Release\ZRLXG.pdb
-D:\Users\Administrator.XZ-202007101700\Documents\Visual Studio 2012\Projects\ZRLXG\ZRLXG\obj\Release\ZRLXG.Blog.resources
 D:\Users\Administrator.XZ-202007101700\Documents\Visual Studio 2012\Projects\ZRLXG\ZRLXG\obj\Release\ZRLXG.DialogErr.resources
 D:\Users\Administrator.XZ-202007101700\Documents\Visual Studio 2012\Projects\ZRLXG\ZRLXG\obj\Release\ZRLXG.Wine.resources
+D:\Users\Administrator.XZ-202007101700\Documents\Visual Studio 2012\Projects\ZRLXG\ZRLXG\obj\Release\ZRLXG.Dialog2.resources
+D:\Users\Administrator.XZ-202007101700\Documents\Visual Studio 2012\Projects\ZRLXG\ZRLXG\obj\Release\ZRLXG.EdgeTabControl.resources
+D:\Users\Administrator.XZ-202007101700\Documents\Visual Studio 2012\Projects\ZRLXG\ZRLXG\bin\Release\HelpLib.dll
+D:\Users\Administrator.XZ-202007101700\Documents\Visual Studio 2012\Projects\ZRLXG\ZRLXG\bin\Release\HelpLib.pdb
+D:\Users\Administrator.XZ-202007101700\Documents\Visual Studio 2012\Projects\ZRLXG\ZRLXG\bin\Release\HelpLib.xml
+D:\Users\Administrator.XZ-202007101700\Documents\Visual Studio 2012\Projects\ZRLXG\ZRLXG\obj\Release\ZRLXG.vbprojResolveAssemblyReference.cache

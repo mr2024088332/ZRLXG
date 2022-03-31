@@ -12,6 +12,7 @@ Public Class Dialog1
     End Sub
 
     Private Sub Cancel_Button_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles Cancel_Button.Click
+        'Start_MYR()
         Me.DialogResult = System.Windows.Forms.DialogResult.Cancel
         Me.Close()
     End Sub
@@ -22,5 +23,10 @@ Public Class Dialog1
         Wine.Show()
         Me.Close()
 
+    End Sub
+
+    Private Sub LinkLabel2_LinkClicked(sender As Object, e As LinkLabelLinkClickedEventArgs) Handles LinkLabel2.LinkClicked
+        Dialog2.Show()
+        Me.Close()
     End Sub
 End Class

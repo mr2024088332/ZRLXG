@@ -1,6 +1,9 @@
-﻿Public Class Normal
+﻿#Region "Main Code"
+Public Class Normal
 #Region "定义全局变量"
     Public E_ZRH As Boolean
+    Public ZR_D As Integer
+    Public ZR_DF As Integer
 #End Region
 #Region "菜单栏代码"
     Private Sub 全屏ToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles 全屏ToolStripMenuItem.Click
@@ -59,6 +62,11 @@
     Private Sub Normal_Load(sender As Object, e As EventArgs) Handles MyBase.Load
         E_ZRH = False
         ZRH.Value = ZRH.Maximum
+        If ZR_D < ZR_DF And ZR_DF = 0 And ZR_DF < 0 Then
+            ZR_D = ZR_DF
+        Else
+            ZR_D = 5
+        End If
     End Sub
 
     Private Sub PictureBox2_Click(sender As Object, e As EventArgs) Handles PictureBox2.Click
@@ -71,7 +79,7 @@
 
                 Dialog1.Show()
             Else
-                ZRH.Value -= 5
+                ZRH.Value -= ZR_D
             End If
         Else
             Timer1.Enabled = False
@@ -92,7 +100,7 @@
 
                 Dialog1.Show()
             Else
-                ZRH.Value -= 5
+                ZRH.Value -= ZR_D
             End If
         Else
             Timer1.Enabled = False
@@ -113,7 +121,7 @@
 
                 Dialog1.Show()
             Else
-                ZRH.Value -= 5
+                ZRH.Value -= ZR_D
             End If
         Else
             Timer1.Enabled = False
@@ -184,20 +192,23 @@
 
             Dialog1.Show()
         Else
-            ZRH.Value -= 5
+            ZRH.Value -= ZR_D
         End If
 
 
     End Sub
 #End Region
-
-   
     Private Sub Err_log_Do_Tick(sender As Object, e As EventArgs) Handles Err_log_Do.Tick
         If ZRH.Value < ZRH.Minimum Then
             DialogErr.Show()
         End If
     End Sub
-End Class
 
+    Private Sub 游戏帮助ToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles 游戏帮助ToolStripMenuItem.Click
+        Dim MainFrm As New HelpLib.MainFrm
+        MainFrm.ShowDialog()
+    End Sub
+End Class
+#End Region
 
 '开发文档还没写，敬请期待

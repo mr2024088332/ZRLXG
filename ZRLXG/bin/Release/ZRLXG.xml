@@ -47,6 +47,177 @@ ZRLXG
 	<summary>
   一个强类型的资源类，用于查找本地化的字符串等。
 </summary>
+</member><member name="E:ZRLXG.EdgeTabControl.BeforeTabRemoved">
+	<summary>
+ 在标签页被移除之前触发。
+ </summary>
+</member><member name="E:ZRLXG.EdgeTabControl.TabDeselected">
+	<summary>
+ 当取消选择标签页时发生。
+ </summary>
+</member><member name="E:ZRLXG.EdgeTabControl.TabSelected">
+	<summary>
+ 在选择标签页时发生。
+ </summary>
+</member><member name="E:ZRLXG.EdgeTabControl.SelectedIndexChanged">
+	<summary>
+ 在 <see cref="P:ZRLXG.EdgeTabControl.SelectedIndex"/> 属性更改后发生。
+ </summary>
+</member><member name="E:ZRLXG.EdgeTabControl.TabNewClicked">
+	<summary>
+ 在用户单击新建标签页后触发。
+ </summary>
+</member><member name="P:ZRLXG.EdgeTabControl.EdgeTabPageEventArgs.TabPageIndex">
+	<summary>当前事件相关的标签页索引。</summary>
+</member><member name="P:ZRLXG.EdgeTabControl.EdgeTabPageEventArgs.TabPage">
+	<summary>当前事件相关的标签页对象。</summary>
+</member><member name="M:ZRLXG.EdgeTabControl.Add(ZRLXG.EdgeTabControl.EdgeTabPage,System.Boolean)">
+	<summary>
+ 添加标签页。
+ </summary>
+	<param name="value">需要添加的标签页。</param>
+	<param name="selectNewTab">是否需要激活此标签页。</param>
+	<exception cref="T:System.ArgumentNullException">标签页对象不能为Null。</exception>
+	<exception cref="T:System.Exception">标签页对象无法重复添加。</exception>
+</member><member name="M:ZRLXG.EdgeTabControl.AddRange(ZRLXG.EdgeTabControl.EdgeTabPage[])">
+	<summary>
+ 批量添加标签页。
+ </summary>
+	<param name="pages">需要添加的标签页数组。</param>
+	<exception cref="T:System.ArgumentNullException">标签页对象不能为Null。</exception>
+	<exception cref="T:System.Exception">标签页对象无法重复添加。</exception>
+</member><member name="M:ZRLXG.EdgeTabControl.IndexOf(ZRLXG.EdgeTabControl.EdgeTabPage)">
+	<summary>
+ 返回指定标签页的索引，如果标签页为Null或不在控件中，则返回-1。
+ </summary>
+</member><member name="M:ZRLXG.EdgeTabControl.Insert(System.Int32,ZRLXG.EdgeTabControl.EdgeTabPage)">
+	<summary>
+ 将标签页插入到指定索引处，可以通过此方法变更标签页顺序。
+ </summary>
+	<param name="index">从零开始的索引位置。</param>
+	<param name="tabPage">需要插入的标签页。</param>
+	<exception cref="T:System.ArgumentOutOfRangeException">索引值不能越界。</exception>
+	<exception cref="T:System.ArgumentNullException">标签页对象不能为Null。</exception>
+</member><member name="M:ZRLXG.EdgeTabControl.Remove(ZRLXG.EdgeTabControl.EdgeTabPage)">
+	<summary>
+ 移除指定的标签页。
+ </summary>
+	<param name="value">需要移除的标签页对象。</param>
+	<exception cref="T:System.ArgumentNullException">标签页对象不能为Null。</exception>
+</member><member name="M:ZRLXG.EdgeTabControl.RemoveAll">
+	<summary>
+ 移除所有标签页。
+ </summary>
+</member><member name="M:ZRLXG.EdgeTabControl.RemoveAt(System.Int32)">
+	<summary>
+ 移除指定索引位置的标签页。
+ </summary>
+	<param name="index">要移除的标签页从零开始的索引。</param>
+	<exception cref="T:System.ArgumentOutOfRangeException">索引值不能越界。</exception>
+</member><member name="M:ZRLXG.EdgeTabControl.SelectTab(System.Int32)">
+	<summary>
+ 使具有指定索引的标签页成为当前标签页，设置为-1时表示不激活任何标签页。
+ </summary>
+	<param name="index">要选择的标签页在集合中的索引，设置为-1时表示不激活任何标签页。</param>
+	<exception cref="T:System.ArgumentOutOfRangeException">索引值不能越界。</exception>
+</member><member name="M:ZRLXG.EdgeTabControl.SelectTab(ZRLXG.EdgeTabControl.EdgeTabPage)">
+	<summary>
+ 使指定的 <see cref="T:ZRLXG.EdgeTabControl.EdgeTabPage"/> 成为当前标签页，如果设置为Null则不选择任何标签页。
+ </summary>
+	<param name="tabPage">要选择的 <see cref="T:ZRLXG.EdgeTabControl.EdgeTabPage"/>，如果设置为Null则不选择任何标签页。</param>
+	<exception cref="T:System.Exception">待选择的标签页必须属于当前控件。</exception>
+</member><member name="P:ZRLXG.EdgeTabControl.Item(System.Int32)">
+	<summary>
+ 获取指定索引的标签页。
+ </summary>
+	<param name="index">从零开始的索引。</param>
+	<exception cref="T:System.ArgumentOutOfRangeException">索引值不能越界。</exception>
+</member><member name="F:ZRLXG.EdgeTabControl._ReadOnly">
+	<summary>标签页组是否为只读，只读状态下用户无法通过鼠标添加关闭激活标签页，无法操作标签页上的内容。</summary>
+</member><member name="P:ZRLXG.EdgeTabControl.ReadOnly">
+	<summary>
+ 获取或设置标签页组是否为只读，只读状态下用户无法通过鼠标添加关闭激活标签页，无法操作标签页上的内容。
+ </summary>
+</member><member name="F:ZRLXG.EdgeTabControl._SelectedIndex">
+	<summary>当前选定的标签页的索引。当未选定任何标签页时为-1。</summary>
+</member><member name="P:ZRLXG.EdgeTabControl.SelectedIndex">
+	<summary>
+ 获取或设置当前选定的标签页的索引，-1时表示不激活任何标签页。
+ </summary>
+	<exception cref="T:System.ArgumentOutOfRangeException">索引值不能越界。</exception>
+</member><member name="P:ZRLXG.EdgeTabControl.SelectedTab">
+	<summary>
+ 获取或设置当前选定的标签页，Null表示任何标签页都没有被选定。
+ </summary>
+	<exception cref="T:System.Exception">待选择的标签页必须属于当前控件。</exception>
+</member><member name="P:ZRLXG.EdgeTabControl.TabCount">
+	<summary>
+ 获取标签页的数目。
+ </summary>
+</member><member name="F:ZRLXG.EdgeTabControl.tabPages">
+	<summary>标签页数组。</summary>
+</member><member name="F:ZRLXG.EdgeTabControl.tabAddButton">
+	<summary>添加标签页按钮</summary>
+</member><member name="M:ZRLXG.EdgeTabControl.RefreshTabPages">
+	<summary>刷新标签页的显示。</summary>
+</member><member name="F:ZRLXG.EdgeTabControl.EdgeTabNew.Icon_Normal">
+	<summary>正常状态的添加图标</summary>
+</member><member name="F:ZRLXG.EdgeTabControl.EdgeTabNew.Icon_WithSeparator">
+	<summary>带分隔符的添加图标</summary>
+</member><member name="P:ZRLXG.EdgeTabControl.EdgeTabNew.SeparatorVisible">
+	<summary>
+ 获取或设置是否显示分隔符。
+ </summary>
+</member><member name="F:ZRLXG.EdgeTabControl.EdgeTabBar.Icon_Close_Normal">
+	<summary>关闭按钮图标：正常状态</summary>
+</member><member name="F:ZRLXG.EdgeTabControl.EdgeTabBar.Icon_Close_Hover">
+	<summary>关闭按钮图标：鼠标悬停状态</summary>
+</member><member name="F:ZRLXG.EdgeTabControl.EdgeTabBar.Icon_Close_Keydown">
+	<summary>关闭按钮图标：鼠标按下状态</summary>
+</member><member name="F:ZRLXG.EdgeTabControl.EdgeTabBar.Icon_Loading">
+	<summary>加载状态图标组</summary>
+</member><member name="E:ZRLXG.EdgeTabControl.EdgeTabBar.TabApplySelect">
+	<summary>
+ 在标签条请求选择时发生。
+ </summary>
+</member><member name="E:ZRLXG.EdgeTabControl.EdgeTabBar.TabApplyRemove">
+	<summary>
+ 在标签条请求移除时发生。
+ </summary>
+</member><member name="P:ZRLXG.EdgeTabControl.EdgeTabBar.Icon">
+	<summary>
+ 获取或设置当前标签条上显示的图标。
+ </summary>
+</member><member name="P:ZRLXG.EdgeTabControl.EdgeTabBar.Text">
+	<summary>
+ 获取或设置当前标签条上显示的文字。
+ </summary>
+</member><member name="P:ZRLXG.EdgeTabControl.EdgeTabBar.Loading">
+	<summary>
+ 获取或设置当前标签条是否为加载状态。
+ </summary>
+</member><member name="P:ZRLXG.EdgeTabControl.EdgeTabBar.ReadOnly">
+	<summary>
+ 获取或设置当前标签条是否为只读。只读状态下，用户无法操作当前标签条。
+ </summary>
+</member><member name="P:ZRLXG.EdgeTabControl.EdgeTabBar.Selected">
+	<summary>
+ 获取或设置当前标签条是否为选择状态。
+ </summary>
+</member><member name="P:ZRLXG.EdgeTabControl.EdgeTabBar.SeparatorVisible">
+	<summary>
+ 获取或设置当前标签条是否显示分隔符。
+ </summary>
+</member><member name="M:ZRLXG.EdgeTabControl.EdgeTabBar.RefreshView">
+	<summary>刷新图标和文字显示</summary>
+</member><member name="F:ZRLXG.EdgeTabControl.EdgeTabBar.MouseLocation">
+	<summary>鼠标当前所在位置</summary>
+</member><member name="F:ZRLXG.EdgeTabControl.EdgeTabBar.MousePoint">
+	<summary>鼠标当前所在坐标</summary>
+</member><member name="P:ZRLXG.EdgeTabControl.EdgeTabPage.Loading">
+	<summary>
+ 获取或设置当前标签页的标签条是否为加载状态。
+ </summary>
 </member>
 </members>
 </doc>

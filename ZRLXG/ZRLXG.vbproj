@@ -83,6 +83,9 @@
     <ManifestCertificateThumbprint>722097DE8AB53FC9A399BC420D7FEDD531AC1A49</ManifestCertificateThumbprint>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="HelpLib">
+      <HintPath>..\..\HelpLib\HelpLib\bin\Debug\HelpLib.dll</HintPath>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Data" />
     <Reference Include="System.Deployment" />
@@ -120,16 +123,17 @@
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="ApplicationEvents.vb" />
-    <Compile Include="Blog.Designer.vb">
-      <DependentUpon>Blog.vb</DependentUpon>
-    </Compile>
-    <Compile Include="Blog.vb">
-      <SubType>Form</SubType>
-    </Compile>
+    <Compile Include="Blog.Designer.vb" />
     <Compile Include="Dialog1.Designer.vb">
       <DependentUpon>Dialog1.vb</DependentUpon>
     </Compile>
     <Compile Include="Dialog1.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Dialog2.Designer.vb">
+      <DependentUpon>Dialog2.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Dialog2.vb">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="DialogErr.Designer.vb">
@@ -137,6 +141,9 @@
     </Compile>
     <Compile Include="DialogErr.vb">
       <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="EdgeTabControl.vb">
+      <SubType>Component</SubType>
     </Compile>
     <Compile Include="INIRW.vb" />
     <Compile Include="My Project\AssemblyInfo.vb" />
@@ -157,6 +164,7 @@
       <DependentUpon>Settings.settings</DependentUpon>
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
     </Compile>
+    <Compile Include="mygamerules.vb" />
     <Compile Include="Normal.Designer.vb">
       <DependentUpon>Normal.vb</DependentUpon>
     </Compile>
@@ -190,14 +198,17 @@
     <EmbeddedResource Include="abtfxb.resx">
       <DependentUpon>abtfxb.vb</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Blog.resx">
-      <DependentUpon>Blog.vb</DependentUpon>
-    </EmbeddedResource>
     <EmbeddedResource Include="Dialog1.resx">
       <DependentUpon>Dialog1.vb</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Dialog2.resx">
+      <DependentUpon>Dialog2.vb</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="DialogErr.resx">
       <DependentUpon>DialogErr.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EdgeTabControl.resx">
+      <DependentUpon>EdgeTabControl.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="My Project\Resources.resx">
       <Generator>VbMyResourcesResXFileCodeGenerator</Generator>

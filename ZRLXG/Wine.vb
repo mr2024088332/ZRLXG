@@ -74,4 +74,9 @@
         MsgBox("You Win!!!", vbYes, "傻逼张锐终于被用酒灌醉而死了 !!!")
         Dialog1.Show()
     End Sub
+
+    Private Sub 游戏帮助ToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles 游戏帮助ToolStripMenuItem.Click
+        Dim mainfrm As New HelpLib.MainFrm
+        mainfrm.ShowDialog()
+    End Sub
 End Class

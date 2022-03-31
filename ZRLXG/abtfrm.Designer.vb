@@ -23,8 +23,8 @@ Partial Class abtfrm
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
         Me.TableLayoutPanel1 = New System.Windows.Forms.TableLayoutPanel()
-        Me.OK_Button = New System.Windows.Forms.Button()
         Me.Cancel_Button = New System.Windows.Forms.Button()
+        Me.OK_Button = New System.Windows.Forms.Button()
         Me.Label1 = New System.Windows.Forms.Label()
         Me.TableLayoutPanel1.SuspendLayout()
         Me.SuspendLayout()
@@ -45,26 +45,28 @@ Partial Class abtfrm
         Me.TableLayoutPanel1.Size = New System.Drawing.Size(146, 36)
         Me.TableLayoutPanel1.TabIndex = 0
         '
-        'OK_Button
-        '
-        Me.OK_Button.Anchor = System.Windows.Forms.AnchorStyles.None
-        Me.OK_Button.Location = New System.Drawing.Point(3, 4)
-        Me.OK_Button.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
-        Me.OK_Button.Name = "OK_Button"
-        Me.OK_Button.Size = New System.Drawing.Size(67, 28)
-        Me.OK_Button.TabIndex = 0
-        Me.OK_Button.Text = "确定"
-        '
         'Cancel_Button
         '
         Me.Cancel_Button.Anchor = System.Windows.Forms.AnchorStyles.None
         Me.Cancel_Button.DialogResult = System.Windows.Forms.DialogResult.Cancel
+        Me.Cancel_Button.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.Cancel_Button.Location = New System.Drawing.Point(76, 4)
         Me.Cancel_Button.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.Cancel_Button.Name = "Cancel_Button"
         Me.Cancel_Button.Size = New System.Drawing.Size(67, 28)
         Me.Cancel_Button.TabIndex = 1
         Me.Cancel_Button.Text = "取消"
+        '
+        'OK_Button
+        '
+        Me.OK_Button.Anchor = System.Windows.Forms.AnchorStyles.None
+        Me.OK_Button.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.OK_Button.Location = New System.Drawing.Point(3, 4)
+        Me.OK_Button.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
+        Me.OK_Button.Name = "OK_Button"
+        Me.OK_Button.Size = New System.Drawing.Size(67, 28)
+        Me.OK_Button.TabIndex = 0
+        Me.OK_Button.Text = "确定"
         '
         'Label1
         '
@@ -93,6 +95,7 @@ Partial Class abtfrm
         Me.MaximizeBox = False
         Me.MinimizeBox = False
         Me.Name = "abtfrm"
+        Me.Opacity = 0.95R
         Me.ShowInTaskbar = False
         Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterParent
         Me.Text = "关于"
